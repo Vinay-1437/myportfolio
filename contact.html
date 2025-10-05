@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <style>
+    *{
+      margin:0;
+      margin:0;
+      padding:0;
+    }
+     body {
+      font-family: 'Open Sans', sans-serif;
+      background-size:cover;
+      height:100vh;
+    }
+    
+
+    nav{
+        display:flex;
+        justify-content:flex-end;
+        height:100px;
+        background-color: brown;
+    }
+    .head{
+        display: flex;
+        align-items: center;
+    }
+    .icons img{
+        width:25px;
+        height:25px;
+        vertical-align:middle;
+    }
+    .icons{
+        margin-right:30px;
+        display:flex;
+        gap:25px;
+    }
+    a{
+       display: flex;
+       align-items: center;
+       gap: 5px;
+       color: black;
+       text-decoration: none;
+    }
+    nav p{
+      position: relative;
+      right:1025px;
+      font-size: xx-large;  
+    }
+    .links img{
+      height: 50px;
+      width:50px;
+    }  
+    .links{
+      display: flex;
+      gap:15px
+    }
+    .main {
+            background-color: burlywood;
+            padding:40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            width: 500px;
+            margin-left:500px;
+            margin-top:200px;
+        }
+
+        .main h2 {
+            margin-bottom: 20px;
+        }
+
+        .main p {
+            margin-bottom: 20px;
+        }
+        footer{
+             background-color: brown;
+             height:50px;
+             text-align: center;
+             margin-top:250px;
+        }
+        @media (max-width: 1085px) {
+  nav {
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 15px 30px;
+    height: 80px;
+  }
+  
+  nav p {
+    font-size: 1.5rem;
+    position: static;
+    right: 0;
+    color: white;
+    margin: 0;
+    align-self: center;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+  }
+  
+  .main {
+    margin: 100px auto 0;
+    padding: 30px;
+    width: 90%;
+  }
+  
+  .links {
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 608px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  
+  nav p {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .icons {
+    flex-direction: column;  
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .icons a {
+    justify-content: center;
+  }
+  
+  .icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .main {
+    margin: 50px 15px 0;
+    padding: 20px;
+    width: 95%;
+  }
+  
+  .links {
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .links img {
+    width: 40px;
+    height: 40px;
+  }
+}
+    </style>
+</head>
+<body>
+     <nav>
+      <div class="head">  
+      <p><b>Portfolio</b></p>
+       <div class="icons">
+        <a href="HOME.HTML"><img src="https://iili.io/KX0fjDB.md.png" alt="Home"><b>Home</b></a>
+        <a href="ABOUT.HTML"><img src="https://iili.io/KXI3MOl.md.png" alt="About"><b>About me</b></a>
+        <a href="CONTACT.HTML"><img src="https://iili.io/KXI3EJf.md.png" alt="Contact"><b>Contact</b></a>   
+      </div>
+      </div>   
+     </nav>
+     <div class="main">
+    <h2>⁕ REACH OUT ME</h2>
+    <p><b>MOBILE: 9390329299</b></p>
+    <div class="links">
+      <a
+        href="https://www.instagram.com/vinaysiddhi.gokavarapu?igsh=bHY2NHU3amYzZjZw"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><img src="https://iili.io/KXI3O0u.md.png" alt="Instagram" />
+      </a>
+      <a
+        href="https://x.com/thegokavarapu?t=2uIjAWFsrGEkL7r8TFx-8w&s=08"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><img src="https://iili.io/KXI3SOQ.md.png" alt="X" />
+      </a>
+      <a href="mailto:thegokavarpu@gmail.com?subject=Hello&body=I%20wanted%20to%20reach%20out%20to%20you." target="_blank" rel="noopener noreferrer">
+      <img src="https://iili.io/KXI3hW7.md.png" alt="Email" />
+      </a>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Vinay. All rights reserved.</p>
+    </footer>
+</body>
+</html>

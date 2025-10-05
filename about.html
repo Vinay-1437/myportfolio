@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <style>
+    *{
+      margin:0;
+      margin:0;
+      padding:0;
+    }
+     body {
+      font-family: 'Open Sans', sans-serif;
+      background: url(https://img.freepik.com/free-vector/white-paint-background_78370-1963.jpg?semt=ais_hybrid&w=740&q=80);
+      background-size:cover;
+      height:100vh;
+    }
+    nav{
+        display:flex;
+        justify-content:flex-end;
+        height:100px;
+    }
+    .head{
+        display: flex;
+        align-items: center;
+    }
+    .icons img{
+        width:25px;
+        height:25px;
+    }
+    .icons{
+        margin-right:30px;
+        display:flex;
+        gap:25px;
+    }
+    a{
+       display: flex;
+       align-items: center;
+       gap: 5px;
+       color: black;
+       text-decoration: none;
+    }
+    nav p{
+      position: relative;
+      right:1050px;
+      font-size: xx-large;  
+    }
+    .about img{
+      height:300px;
+      width:300px;
+      border-radius:25px;
+    }
+    .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1550px;
+  gap: 20px;
+  font-size:x-large;
+  
+}
+.about img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.socials img{
+  width:40px;
+  height:40px;
+} 
+ul{
+  display: flex;
+  justify-content: center;
+  gap:50px;
+}
+.links{
+  display: flex;
+  gap:50px;
+}
+footer{
+     text-align: center;
+     margin-top:15px;
+}
+@media (max-width: 768px) {
+  nav {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  nav p {
+    position: static;
+    margin-bottom: 10px;
+    font-size: large;
+    text-align: center;
+  }
+  .head {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .icons {
+    margin-right: 0;
+    gap: 20px;
+  }
+  .icons a {
+    font-size: 14px;
+  }
+  .icons img {
+    width: 18px;
+    height: 18px;
+  }
+  .about {
+    max-width: 100%;
+    padding: 0 15px;
+    font-size: medium;
+  }
+  .about img {
+    width: 200px;
+    height: 200px;
+  }
+  ul {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+  }
+  .skills ul {
+    justify-content: center;
+  }
+  .socials .links {
+    gap: 20px;
+  }
+  .socials img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav p {
+    font-size: medium;
+  }
+  .icons b {
+    display: none; 
+  }
+  .about img {
+    width: 150px;
+    height: 150px;
+  }
+  .about p {
+    font-size: small;
+  }
+  ul {
+    gap: 10px;
+  }
+  .skills p, .socials p {
+    font-size: small;
+  }
+  .socials img {
+    width: 25px;
+    height: 25px;
+  }
+}
+    </style>
+</head>
+<body>
+     <nav>
+      <div class="head">  
+      <p><b>Portfolio</b></p>
+       <div class="icons">
+        <a href="HOME.HTML"><img src="https://iili.io/KX0fjDB.md.png" alt="Home"><b>Home</b></a>
+        <a href="index.HTML"><img src="https://iili.io/KXI3MOl.md.png" alt="About"><b>About me</b></a>
+        <a href="CONTACT.HTML"><img src="https://iili.io/KXI3EJf.md.png" alt="Contact"><b>Contact</b></a>   
+      </div>
+      </div>   
+     </nav>
+     
+     <div class="about">
+     <img src="https://iili.io/KXI3vJj.md.jpg" alt="VS">
+     <p>I am <b>Vinay Siddhi Gokavarapu</b>, a first-year student at <b>Scaler School of Technology</b>. With a natural<b>
+      curiosity</b> and an <b>ambivert</b> personality, I’m always eager to <b>learn</b> and <b>grow</b>.My primary interests
+      lie in the fields of <b>AI</b> and <b>cybersecurity</b>, where I’m determined to build a strong foundation for the future.
+      Outside of academics, I am passionate about <b>photography</b>, <b>dancing</b>, and <b>listening to music</b>,which help
+      me stay creative and balanced. As I continue my journey, I am excited to embrace new <b>challenges</b> and make the most 
+      of every <b>opportunity</b> that comes my way.</p>    
+     <div class="skills">
+     <p><b>✦SKILLS</b></p>
+     <ul>
+     <li>Html</li>
+     <li>Css</li>
+     <li>JavaScript</li>
+     <li>Java</li> 
+     </ul> 
+     </div>
+     <div class="socials">
+     <p>✦SOCIALS</p>
+     <div class="links">
+     <a href="https://www.linkedin.com/in/vinaysiddhi-gokavarapu-3b41b2370" target="_blank">
+     <img src="https://iili.io/KXI3eUb.md.png" alt="LinkedIn">
+     </a>
+     <a href="https://github.com/Vinay-1437" target="_blank">
+     <img src="https://iili.io/KXI3js9.md.png" alt="GitHub">
+     </a>
+     <a href="https://codeforces.com/profile/VinaySiddhi" target="_blank">
+     <img src="https://iili.io/KXI3XxS.png" alt="Codeforces">
+     </a>
+     </div>
+     </div> 
+    </div>
+    <footer>
+    <p>&copy; 2025 Vinay. All rights reserved.</p>
+    </footer>
+</body>
+</html>
